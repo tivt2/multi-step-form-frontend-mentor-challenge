@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:eslint-react/recommended",
+    "plugin:eslint-react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "react-hooks"],
+  "root": true
+}
