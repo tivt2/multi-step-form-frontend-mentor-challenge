@@ -28,6 +28,7 @@ export default function Home() {
     const updateWindowWidth = () => {
       setWindowWidth(window.innerWidth);
     };
+    updateWindowWidth();
 
     window.addEventListener('resize', updateWindowWidth);
 

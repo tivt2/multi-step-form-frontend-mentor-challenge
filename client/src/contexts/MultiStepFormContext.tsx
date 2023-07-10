@@ -72,8 +72,6 @@ export function MultiStepFormProvider<Tform>({
     submitMultiStepForm,
   };
 
-  console.log(masterData);
-
   return (
     <MultiStepFormContext.Provider value={contextValue}>
       {children}

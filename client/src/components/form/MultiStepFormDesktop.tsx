@@ -19,6 +19,8 @@ export function MultiStepFormDesktop() {
         <Image
           src={'/images/bg-sidebar-desktop.svg'}
           fill
+          priority
+          quality={100}
           style={{ objectFit: 'cover' }}
           alt="sidebar image"
         />

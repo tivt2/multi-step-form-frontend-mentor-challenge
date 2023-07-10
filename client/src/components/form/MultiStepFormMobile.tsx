@@ -17,6 +17,8 @@ export function MultiStepFormMobile() {
         <Image
           src={'/images/bg-sidebar-mobile.svg'}
           fill
+          priority
+          quality={100}
           style={{ objectFit: 'cover' }}
           alt="background image"
         />
